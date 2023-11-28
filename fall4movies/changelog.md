@@ -1,3 +1,23 @@
+## <1.1> - <29-11-2023>
+
+### Sprint learnings
+
+
+### Added
+* Se instaló el react router dom. 
+* Se agregó el ruteo al main.
+* Se creó un nuevo complemento, de página de error de ruteo
+
+### Changed
+
+
+### Fixed
+
+
+### Removed
+
+
+
 ## <1.0> - <22-11-2023>
 
 ### Sprint learnings

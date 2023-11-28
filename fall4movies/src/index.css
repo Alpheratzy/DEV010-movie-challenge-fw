@@ -12,6 +12,7 @@
 body{
   margin: 0px;
   font-size: 18px;
+  background-color: var(--Background-blue);
 }
 
 header{
@@ -51,5 +52,8 @@ h3{
   margin: 0px 0px 20px 0px;
 }
 
-
+a{
+  text-decoration: none;
+  color:var(--Contrast-Yellow)
+}
 
