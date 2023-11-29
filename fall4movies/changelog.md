@@ -1,7 +1,24 @@
+## <1.2> - <6-12-2023>
+
+### Sprint learnings
+
+
+### Added
+
+
+### Changed
+
+
+### Fixed
+
+
 ## <1.1> - <29-11-2023>
 
 ### Sprint learnings
 
+* Uso de react router DOM
+* Instalación de Api TMDB
+* Peticiones http a la API
 
 ### Added
 * Se instaló el react router dom. 
@@ -12,6 +29,8 @@
 * Se hizo una función para separar el año de la fecha proporcionada por la API y asi mostrar solo el año en pantalla
 * Se hizo una función para mostrar un número determinado de estrellas por puntuación de cada película
 * Se hizo una función que extrae los géneros de cada pelicula del objeto que lo contiene, en un nuevo array, para mostrar cada género separado por comas. 
+* Se realizó una función reutilizable para las peticiones http
+* Se conectó la vista details a la API
 
 
 ### Changed
