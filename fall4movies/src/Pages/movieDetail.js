@@ -7,18 +7,14 @@ import Navigator from "../components/navigator";
 import Copyrights from "../components/copyrights";
 
 function MovieDetail(){
-    const reload = () => {
-        window.location.href = '/';
-      }
-      
+
       const [searchText, setSearchText] = React.useState("");
       console.log(React.useState)
 
     return(
         <>
         <header>
-      <SiteId 
-      reload={reload}/>
+      <SiteId />
       <Navigator searchText={searchText} setSearchText = {setSearchText}/>
     </header>
      <main>
