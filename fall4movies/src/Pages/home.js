@@ -4,24 +4,19 @@ import Navigator from '../components/navigator';
 import Copyrights from '../components/copyrights';
 import MoviesGrid from '../components/moviesGrid';
 
-
 export function Home(){
-  const reload = () => {
-    window.location.href = '/';
-  }
-  
+
   const [searchText, setSearchText] = React.useState("");
   console.log(React.useState)
   
   return(
     <>
         <header>
-      <SiteId 
-      reload={reload}/>
+      <SiteId />
       <Navigator searchText={searchText} setSearchText = {setSearchText}/>
     </header>
      <main>
-      <MoviesGrid searchText={searchText}/>
+      <MoviesGrid/>
      </main>
     <footer>
       <Copyrights />

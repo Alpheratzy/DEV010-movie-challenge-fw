@@ -9,7 +9,7 @@ import {
 //Importaciones de componentes
 
 import { Home } from "./Pages/home";
-import ErrorPage from "./components/error-page"
+import ErrorPage from "./Pages/error-page"
 import MovieDetail from "./Pages/movieDetail";
 
 const router = createBrowserRouter([

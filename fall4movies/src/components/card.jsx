@@ -3,9 +3,12 @@ import "../styles/card.css";
 import { Link } from "react-router-dom";
 import getYear from "../functions/year";
 
+const apiPage ="http://image.tmdb.org/t/p/" ;
+const imgSize ="w300"
+
 function Card({ movie }) {
     
-  const ImgUrl = "http://image.tmdb.org/t/p/w300" + movie.poster_path;
+  const ImgUrl = apiPage + imgSize + movie.poster_path;
   const title = movie.title.toUpperCase();
   const releaseYear = getYear(movie.release_date);
   
@@ -18,7 +21,5 @@ function Card({ movie }) {
       
     </article>
   }
-  
-  //TODO que al clickear el logo, recargue el site
   
   export default Card;

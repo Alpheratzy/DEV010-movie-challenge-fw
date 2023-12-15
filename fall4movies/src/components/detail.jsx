@@ -12,6 +12,8 @@ import getYear from "../functions/year";
 import returnBoton from  "../images/returnButton.png"
 import getHttp  from "../functions/httpClient";
 
+const apiPage ="http://image.tmdb.org/t/p/" ;
+const imgSize ="w300"
 
 //VISTA DETAIL
 function Detail() {
@@ -29,7 +31,7 @@ function Detail() {
     return null;
   }
 
-  const imgMovie = "http://image.tmdb.org/t/p/w300" + movie.poster_path;
+  const imgMovie = apiPage + imgSize + movie.poster_path;
   const title = movie.original_title;
   const releaseYear = getYear(movie.release_date);
   const overwiew = movie.overview;
