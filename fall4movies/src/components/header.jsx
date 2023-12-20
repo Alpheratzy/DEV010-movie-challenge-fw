@@ -1,11 +1,11 @@
 import SiteId from "./siteID";
 import Navigator from "./navigator";
 
-function Header() {
+function Header({ searchText, changeGenre, changeOrder }) {
  
     return <header>
       <SiteId />
-      <Navigator/>
+      <Navigator search={searchText} genre={changeGenre} order={changeOrder}/>
       </header>
     }
     
