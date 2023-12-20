@@ -31,6 +31,7 @@ function Detail() {
     return null;
   }
 
+
   const imgMovie = apiPage + imgSize + movie.poster_path;
   const title = movie.original_title;
   const releaseYear = getYear(movie.release_date);
